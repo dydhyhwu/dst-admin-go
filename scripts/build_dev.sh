@@ -1,0 +1,1 @@
+docker run -it --name dst-admin-go-dev -v ./src:/app -p 8082:8082 golang:1.19-alpine
