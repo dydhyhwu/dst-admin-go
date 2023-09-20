@@ -1,1 +1,1 @@
-docker run -it --name dst-admin-go-dev -v ./src:/app -p 8082:8082 dst-admin-go:dev /bin/zsh
+docker run -it -v ./src:/app -p 8082:8082 dst-admin-go:dev /bin/zsh

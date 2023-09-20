@@ -2,6 +2,9 @@ FROM golang:1.19-alpine
 
 WORKDIR /app
 
+# 指定gopath，给IDE做提示用
+ENV GOPATH /app/.gopath
+
 # 安装zsh
 RUN apk update --no-cache && \
     apk add zsh git && \
